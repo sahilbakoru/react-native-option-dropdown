@@ -1,0 +1,15 @@
+{
+  "name": "react-native-option-dropdown",
+  "version": "1.0.0",
+  "description": "First Package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "sahilbakoru",
+  "license": "ISC",
+  "peerDependencies": {
+    "react": "18.2.0",
+    "react-native": "0.72.1"
+  }
+}
