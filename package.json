@@ -1,6 +1,6 @@
 {
   "name": "react-native-option-dropdown",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "First Package",
   "main": "index.js",
   "scripts": {
@@ -14,6 +14,10 @@
     "select",
     "options"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sahilbakoru/First-npm-package.git"
+  },
   "author": "sahilbakoru",
   "license": "ISC",
   "peerDependencies": {
