@@ -1,11 +1,11 @@
 
-
-
+#####  react-native-option-dropdown is light (less then 5kb) dropdown for simple react native apps.
+![](./Demo1.gif)
 ## Getting started
 
-![](https://global.discourse-cdn.com/twitter/original/3X/6/f/6f0aa55a015f6b4cfabc51016b3c665a59925ebe.gif)
 
-`$ npm install @react-native-picker/picker --save`
+
+`$ npm i react-native-option-dropdown`
 
 
 #### MacOS
@@ -19,30 +19,59 @@ pod install
 
 ## Usage
 
-Import Picker from `@react-native-picker/picker`:
+Import Dropdown from `react-native-option-dropdown'`:
 
 ```javascript
-import {Picker} from '@react-native-picker/picker';
+import Dropdown from 'react-native-option-dropdown';
 ```
 
-Create state which will be used by the `Picker`:
+Create state which will be used by the `Dropdown`:
 
 ```javascript
-const [selectedLanguage, setSelectedLanguage] = useState();
+    const [selectedItem, setSelectedItem] = useState(null);
 ```
 
-Add `Picker` like this:
+Add `Dropdown` like this:
 
 ```javascript
-<Picker
-  selectedValue={selectedLanguage}
-  onValueChange={(itemValue, itemIndex) =>
-    setSelectedLanguage(itemValue)
-  }>
-  <Picker.Item label="Java" value="java" />
-  <Picker.Item label="JavaScript" value="js" />
-</Picker>
+import { StyleSheet, Text, View } from 'react-native'
+import React, {useState} from 'react';
+import Dropdown from 'react-native-option-dropdown'
+
+const App = () => {
+    const [selectedItem, setSelectedItem] = useState(null);
+
+    let data = [
+        {id: 1, name: 'All'},
+        {id: 2, name: 'Today'},
+        {id: 3, name: 'Yesterday'},
+        {id: 4, name: 'Current Week'},
+      ];
+
+      const onSelect = item=>{
+        setSelectedItem(item);
+        alert(item.name)
+      } 
+  return (
+    <View style={{marginTop:'10%'}}>
+           <Dropdown
+          data={data}
+          onSelect={onSelect}
+          value={selectedItem}
+        />
+    </View>
+  )
+}
+
+export default App
+
+
+
+
 ```
+
+#### Suggestions and feedback are welcome at  sahilbakoru1999@gmail.com .
+
 
 
 
