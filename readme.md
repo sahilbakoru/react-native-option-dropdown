@@ -1,12 +1,12 @@
 
 #####  react-native-option-dropdown is light (less then 5kb) dropdown for simple react native apps.
-![](./Demo1.gif)
+
+<img src='Demo1.gif' width="250" height="350" />
 ## Getting started
 
 
 
 `$ npm i react-native-option-dropdown`
-
 
 #### MacOS
 CocoaPods on MacOS needs this extra step (called from the MacOS directory)
