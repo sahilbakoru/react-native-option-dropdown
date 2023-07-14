@@ -1,7 +1,7 @@
 
 #####  react-native-option-dropdown is light (less then 5kb) dropdown for simple react native apps.
 
-![](https://raw.githubusercontent.com/sahilbakoru/nodeTest/main/Simulator%20Screen%20Recording%20-%20iPhone%2014%20-%202023-07-13%20at%2001.22.55.gif)
+<img src="https://raw.githubusercontent.com/sahilbakoru/nodeTest/main/Simulator%20Screen%20Recording%20-%20iPhone%2014%20-%202023-07-13%20at%2001.22.55.gif?raw=true" width = "160" height = "287.5" alt="Demo 1"/>
 ## Getting started
 
 
