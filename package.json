@@ -1,7 +1,7 @@
 {
   "name": "react-native-option-dropdown",
-  "version": "1.0.9",
-  "description": "react-native-option-dropdown is light dropdown for simple react native apps.",
+  "version": "1.1.0",
+  "description": "react-native-option-dropdown is light weight dropdown for simple react native apps.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

@@ -1,7 +1,7 @@
 
-##  react-native-option-dropdown is light (less then 5kb) dropdown for simple react native apps.
+##  react-native-option-dropdown
 
-<img src="https://raw.githubusercontent.com/sahilbakoru/nodeTest/main/Simulator%20Screen%20Recording%20-%20iPhone%2014%20-%202023-07-13%20at%2001.22.55.gif?raw=true" width = "160" height = "287.5" alt="Demo 1"/>
+<img src="https://user-images.githubusercontent.com/68190549/256564524-3cbe7c49-cffa-475f-b33b-7c4a9b730afb.gif?raw=true" width = "180" height = "300" alt="Demo 1"/>
 
 ## Getting started
 
@@ -55,10 +55,29 @@ const App = () => {
       } 
   return (
     <View style={{marginTop:'10%'}}>
-           <Dropdown
+          <Dropdown
           data={data}
           onSelect={onSelect}
           value={selectedItem}
+          transparent ={false}
+          alignList={'center'}
+          fontSize={20}
+          defaultText={"Please Select"}
+          animationType={'slide'}
+          DropdownWidth={'50%'}
+          dropDownStyle ={
+               {paddingVertical: 4,
+               paddingHorizontal: 8,
+               borderRadius: 3,
+               minHeight: 32,
+               justifyContent: 'space-between',
+               flexDirection: 'row',
+               alignItems: 'center',
+               marginBottom: 8,
+               borderColor: '#000',
+               borderWidth: 0.5,
+             overflow:'scroll' }
+          }
         />
     </View>
   )
