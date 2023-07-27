@@ -1,6 +1,6 @@
 {
   "name": "react-native-option-dropdown",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "react-native-option-dropdown is light weight dropdown for simple react native apps.",
   "main": "index.js",
   "scripts": {
