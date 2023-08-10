@@ -1,23 +1,30 @@
 
 ##  react-native-option-dropdown
 
-<img src="https://user-images.githubusercontent.com/68190549/256564524-3cbe7c49-cffa-475f-b33b-7c4a9b730afb.gif?raw=true" width = "220" height = "400" alt="Demo 1"/>
-<img src="https://raw.githubusercontent.com/sahilbakoru/nodeTest/main/ezgif-3-ad8cd0e495.gif?raw=true" width = "220" height = "400" alt="Demo 1"/>
+
+Demo 1          |  Demo 2
+:-------------------------:|:-------------------------:
+<img src="https://user-images.githubusercontent.com/68190549/256564524-3cbe7c49-cffa-475f-b33b-7c4a9b730afb.gif?raw=true" width = "220" height = "400" alt="Demo 1"/> |  <img src="https://raw.githubusercontent.com/sahilbakoru/nodeTest/main/ezgif-3-ad8cd0e495.gif?raw=true" width = "220" height = "400" alt="Demo 1"/>
 
 
 # Why ?
 This library is created in an attempt to provide a  lightweight, simple and customizable dropdown solution for react native apps . 
-It try to solve the problem of having to install very heavy and big  libraries for something as simple as a dropdown, as react native does not have any by default. this library is build by deafult react native tools so it's not dependent on other libraries.
-It try to solve the problem of having to install very heavy and big  libraries for something as simple as a dropdown, as react native does not have any by default. this library is build by deafult react native tools so it's not dependent on other libraries.
- It is so simple you can to your project `node_modules/react-native-option-dropdown/index.js` and edit the code yourself and cusomize it even more. OR copy the code from there and use it anywhere as a component, no need to installing anything else.
 
-## Getting started
+
+It try to solve the problem of having to install very heavy and big  libraries for something as simple as a dropdown, as react native does not have any by default. this library is build by deafult react native tools so it's not dependent on other libraries.
+
+
+having to install very heavy and big  libraries for something as simple as a dropdown, as react native does not have any by default. this library is build by deafult react native tools so it's not dependent on other libraries.
+
+ It is so simple you can go to your project `node_modules/react-native-option-dropdown/index.js` and edit the code yourself and cusomize it even more. OR copy the code from there and use it anywhere as a component, no need to installing anything else. 🎉
+
+## Getting started  🤖
 
 
 
 `$ npm i react-native-option-dropdown`
 
-#### MacOS
+#### MacOS  🖥
 CocoaPods on MacOS needs this extra step , Go to ios folder and run.
 
 ```
@@ -26,7 +33,7 @@ pod install
 
 
 
-## Usage
+## Usage 🛠
 
 Import `Dropdown` from react-native-option-dropdown
 
@@ -95,7 +102,7 @@ export default App
 ```
 
 
-## Props
+## Props  🗝
 
 Prop                | Type     | Optional | Default   | Description
 ------------------- | -------- | -------- | --------- | -----------
