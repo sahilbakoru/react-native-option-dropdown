@@ -1,5 +1,4 @@
 // latest vertion is 1.2.1 
-
 import {
     StyleSheet,
     Text,
